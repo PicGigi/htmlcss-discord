@@ -7,16 +7,16 @@
 
 header{
     background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .top-bar{
 display: flex;
+padding-top: 20px;
 }
 
 .tb-section{
     width: 33.3%;
-    height: auto;
-    text-align: center;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -30,11 +30,52 @@ display: flex;
 
 }
 
-.access{
-    background-color: white;
-    padding: 10px;
+.button{
+    padding: 10px 20px 10px 20px;
     border-radius: 50px;
+    text-decoration: none;
 }
 
+.access{
+    color: black;
+    background-color: white;
+
+}
+
+.introduction{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.introduction p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.intro-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.download{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
+
+.open{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(44, 39, 39);
+}
 
 
