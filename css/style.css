@@ -155,3 +155,52 @@ footer{
     height: 1000px;
     background-color: rgb(34, 30, 30);
 }
+
+.all-lists
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+}
+
+.list{
+    width: 20%;
+    padding-right: 30px;
+}
+
+.first-list h3{
+    color: rgb(165, 99, 226);
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+ .first-list img{
+    height: 1em;
+ }
+ .first-list span, .first-list i{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+ }
+
+ .icons{
+    height: 100px;
+ }
+ .icons i{
+    color: white;
+    margin-right: 1em;
+    font-size: 2em;
+ }
+
+ ul{
+    list-style: none;
+    font-size: 25px;
+    color: white;
+ }
+ li{
+    padding-bottom: 20px;
+ }
+
+ ul :first-child{
+    color: rgb(165, 99, 226);
+ }
