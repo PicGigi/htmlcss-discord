@@ -8,12 +8,13 @@
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 .top-bar{
-display: flex;
-padding-top: 20px;
-font-size: 20px;
+    display: flex;
+    padding: 20px 10px 0px 10px;
+    font-size: 20px;
 }
 
 .tb-section{
@@ -25,6 +26,7 @@ font-size: 20px;
 }
 
 .options{
+    min-width: 500px;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -72,7 +74,7 @@ h1{
 .download{
     padding: 15px 30px 15px 30px;
     font-size: 25px;
-    color: black;
+    color: rgb(34, 30, 30);
     background-color: white;
 }
 
@@ -83,4 +85,73 @@ h1{
     background-color: rgb(44, 39, 39);
 }
 
+main{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 200px;
+}
 
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100 px;
+    margin-bottom: 100px;
+}
+
+.main-section img{
+    width: 65%;
+}
+
+.main-section div{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.main-section h2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+.main-section p{
+    font-size: 30px;
+}
+
+.big{
+    flex-direction: column;
+    text-align: center;
+}
+
+.big div{
+    width: 100%;
+}
+.big img{
+    align-self: center;
+}
+
+.stars{
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main-button{
+    text-align: center;
+}
+
+.download-main{
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(165, 99, 226);
+    color: white;
+}
+
+footer{
+    height: 1000px;
+    background-color: rgb(34, 30, 30);
+}
