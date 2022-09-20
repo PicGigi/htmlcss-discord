@@ -161,12 +161,15 @@ footer{
     width: 80%;
     margin: auto;
     padding-top: 50px;
+    margin-bottom: 20px;
     display: flex;
+    border-bottom: solid 1px rgb(165, 99, 226);
 }
 
 .list{
     width: 20%;
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .first-list h3{
@@ -203,4 +206,18 @@ footer{
 
  ul :first-child{
     color: rgb(165, 99, 226);
+ }
+
+ .bottom-bar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .register{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(165, 99, 226);
+    color: white;
  }
